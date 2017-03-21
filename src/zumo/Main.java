@@ -7,13 +7,19 @@ package zumo;
 
 /**
  *
- * @author aguadulce
+ * @author Michael
+ * main del zumo
  */
 public class Main {
     public static void main(String[] args) {
 
         acciones_Zumo(0.0);
     }
+    
+    /**
+     * @author MICHAEL
+     * @param peso devuelve el peso del zumo para posteriormente saber el precio 
+     */
 
     public static void acciones_Zumo(double peso) {
         Zumo depositoPomelo;

@@ -3,6 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+/**
 package zumo;
 
 /**
@@ -26,6 +27,7 @@ public class Zumo {
     }
 
     /**
+     * 
      * @return the precio_litro
      */
     public int getPrecio_litro() {
@@ -83,6 +85,10 @@ public class Zumo {
     }
     
     /*Método que permite consultar el contenido actual que tiene el deposito*/
+    /**
+     * 
+     * @return getLitros()
+     */
     public int obtenerLitros(){
         return getLitros();
     }
@@ -90,6 +96,12 @@ public class Zumo {
     
     /*Método que permite sacar zumo del deposito siempre y cuando
     se tenga el dinero suficientes.Este método se probará con JUnit*/
+    /**
+     * 
+     * @param litros
+     * @param dinero
+     * @throws Exception 
+     */
     public void sacarZumo(int litros, int dinero) throws Exception
     {
         if (dinero <= 0) {
@@ -106,6 +118,11 @@ public class Zumo {
     
     /*Método que permite rellenar el deposito de zumo siempre y cuando
     la capacidad no se sobrepase. Este método sera probado con JUnit.*/
+    /**
+     * 
+     * @param litros
+     * @throws Exception 
+     */
     public void rellenar(int litros) throws Exception
 
 {
